@@ -1,4 +1,6 @@
-function GetSeeds() 
+local ret = {}
+
+function ret.GetSeeds() 
     local seeds = {
 	["Carrot"] = {
 		["SeedName"] = "Carrot Seed",
@@ -1683,3 +1685,5 @@ function GetSeeds()
 }
 return seeds
 end
+
+return ret
